@@ -11,4 +11,4 @@ namespace MVCSiteReviewProject.Models
         public string Name { get; set; }
         public virtual ICollection<Review> Reviews { get; set; }
     }
-}
+} 
