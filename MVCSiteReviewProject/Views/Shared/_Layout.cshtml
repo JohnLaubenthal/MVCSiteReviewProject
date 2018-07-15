@@ -9,7 +9,17 @@
 
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    @*nav bar buttons*@
+    <nav>
+        <ul>
+            <li>@Html.ActionLink("Home", "index", "Home")</li>
+            <li>@Html.ActionLink("Categories", "index", "Categories")</li>  
+            <li>@Html.ActionLink("Reviews", "index", "Reviews")</li>
+        </ul>
+
+
+    </nav>
+    @*<div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -28,7 +38,7 @@
                 @Html.Partial("_LoginPartial")
             </div>
         </div>
-    </div>
+    </div>*@
     <div class="container body-content">
         @RenderBody()
         <hr />
