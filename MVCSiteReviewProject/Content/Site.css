@@ -54,3 +54,75 @@ nav li {
 #jumbo{
     background-color:#fff;
 }
+/*Review Cards*/
+
+.cardOne {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+}
+
+    .cardOne:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+
+.containerOne {
+    padding: 2px 16px;
+}
+
+.cardTwo {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+}
+
+    .cardTwo:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+
+.containerTwo {
+    padding: 2px 16px;
+}
+
+.cardThree {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+}
+
+    .cardThree:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+
+.containerThree {
+    padding: 2px 16px;
+}
+
+.cardFour {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+}
+
+    .cardFour:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+
+.containerFour {
+    padding: 2px 16px;
+}
+
+.cardFive {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+}
+
+    .cardFive:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+
+.containerFive {
+    padding: 2px 16px;
+}
+/*Review Cards End*/

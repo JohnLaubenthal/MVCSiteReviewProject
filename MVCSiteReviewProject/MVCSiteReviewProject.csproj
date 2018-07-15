@@ -221,12 +221,34 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="MVCImages\Apple1.jpg" />
+    <Content Include="MVCImages\Apple2.jpg" />
+    <Content Include="MVCImages\Apple3.jpg" />
+    <Content Include="MVCImages\Apple4.jpg" />
+    <Content Include="MVCImages\Apple5.jpg" />
+    <Content Include="MVCImages\Dell1.jpg" />
+    <Content Include="MVCImages\Dell2.jpg" />
+    <Content Include="MVCImages\Dell3.jpg" />
+    <Content Include="MVCImages\Dell4.jpg" />
+    <Content Include="MVCImages\Dell5.jpg" />
+    <Content Include="MVCImages\download %281%29.jpg" />
+    <Content Include="MVCImages\download.jpg" />
     <Content Include="MVCImages\HomepagePhoto.jpg" />
+    <Content Include="MVCImages\HP1.jpg" />
+    <Content Include="MVCImages\HP2.jpg" />
+    <Content Include="MVCImages\HP3.jpg" />
+    <Content Include="MVCImages\HP4.jpg" />
+    <Content Include="MVCImages\HP5.jpg" />
+    <Content Include="MVCImages\images %281%29.jpg" />
+    <Content Include="MVCImages\images %282%29.jpg" />
+    <Content Include="MVCImages\images %283%29.jpg" />
+    <Content Include="MVCImages\images.jpg" />
     <Content Include="MVCImages\MVC1.jpg" />
     <Content Include="MVCImages\MVC2.jpg" />
     <Content Include="MVCImages\MVC3.jpg" />
     <Content Include="MVCImages\MVC4.jpg" />
     <Content Include="MVCImages\MVCReview.jpg" />
+    <Content Include="MVCImages\notebook-inspiron-15-3565-campaign-hero-504x350-ng.jpg" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />

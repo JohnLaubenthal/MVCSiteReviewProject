@@ -6,44 +6,94 @@
 
 <h2>Details</h2>
 
-<div>
-    <h4>Review</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Category.Name)
-        </dt>
+<h2>Card</h2>
 
-        <dd>
-            @Html.DisplayFor(model => model.Category.Name)
-        </dd>
+<div class="cardOne">
 
-        <dt>
-            @Html.DisplayNameFor(model => model.ReviewTitle)
-        </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.ReviewTitle)
-        </dd>
+    <img src="~/MVCImages/Apple1.jpg" alt="Avatar" style="width:100%">
+    <div class="containerOne">
+        <h4><b>John Doe</b></h4>
+        <p>Architect & Engineer</p>
+    </div>
+    </div>
+    <div class="cardTwo">
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Content)
-        </dt>
+        <img src="~/MVCImages/Apple2.jpg" />alt="Avatar" style="width:100%">
+        <div class="container">
+            <h4><b>John Doe</b></h4>
+            <p>Architect & Engineer</p>
+        </div>
+        </div>
 
-        <dd>
-            @Html.DisplayFor(model => model.Content)
-        </dd>
+    <div class="cardThree">
+        <img src="~/MVCImages/Apple3.jpg" /> alt="Avatar" style="width:100%">
+        <div class="container">
+            <h4><b>John Doe</b></h4>
+            <p>Architect & Engineer</p>
+        </div>
+        </div>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.ReviewDate)
-        </dt>
+    <div class="cardFour">
+        <img src="~/MVCImages/Apple4.jpg" />alt="Avatar" style="width:100%">
+        <div class="container">
+            <h4><b>John Doe</b></h4>
+            <p>Architect & Engineer</p>
+        </div>
+        </div>
 
-        <dd>
-            @Html.DisplayFor(model => model.ReviewDate)
-        </dd>
+    <div class="cardFive">
+        <img src="~/MVCImages/Apple5.jpg" />alt="Avatar" style="width:100%">
+        <div class="container">
+            <h4><b>John Doe</b></h4>
+            <p>Architect & Engineer</p>
+        </div>
+        </div>
 
-    </dl>
-</div>
+
+
+
+
+    
+
+@*<div>
+        <h4>Review</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Category.Name)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Category.Name)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.ReviewTitle)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.ReviewTitle)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Content)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Content)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.ReviewDate)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.ReviewDate)
+            </dd>
+
+        </dl>
+    </div>*@
 <p>
     @Html.ActionLink("Edit", "Edit", new { id = Model.ReviewId }) |
     @Html.ActionLink("Back to List", "Index")
