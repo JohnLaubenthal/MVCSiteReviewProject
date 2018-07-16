@@ -11,7 +11,7 @@
 </p>
 
 @*switching tables to divs*@
-<div class="container">
+<div class="container" id="review">
 
     <div class="row">
         <div class="col">
@@ -56,11 +56,11 @@
         </div>
 
         <div class="col">
-            @Html.ActionLink("Edit", "Edit", new { id = item.ReviewId }) |
-            @Html.ActionLink("Details", "Details", new { id = item.ReviewId }) |
-            @Html.ActionLink("Delete", "Delete", new { id = item.ReviewId })
+            <button class="button"> @Html.ActionLink("Edit", "Edit", new { id = item.ReviewId })</button>
+           <button class="button"> @Html.ActionLink("Details", "Details", new { id = item.ReviewId })</button>
+           <button class="button"> @Html.ActionLink("Delete", "Delete", new { id = item.ReviewId })</button>
         </div>
-
+    
        </div>
 
 
